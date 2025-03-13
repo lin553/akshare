@@ -361,7 +361,7 @@
  "currency_latest"  # 最新货币报价
  "currency_history"  # 指定历史日期的所有货币报价
  "currency_time_series"  # 指定日期间的时间序列数据-需要权限
- "currency_currencies"  # 查询所支持的货币信息
+ "currency_currencies"  # 查询所支持的信息
  "currency_convert"  # 货币换算
  "currency_pair_map"  # 指定货币的所有可货币对的数据
  # 公募基金

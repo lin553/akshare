@@ -20,7 +20,8 @@ def crypto_js_spot() -> pd.DataFrame:
     """
     url = "https://datacenter-api.jin10.com/crypto_currency/list"
     params = {
-        "_": "1672141224307",
+        # "_": "1672141224307",
+        "_": str(int(time.time() * 1000)),         # 使用当前时间作为时间戳参数，单位为毫秒
     }
     headers = {
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
